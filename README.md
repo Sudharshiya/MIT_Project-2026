@@ -110,28 +110,18 @@ Analysis & Validation Layer (Kibana dashboards, confusion matrix, ROC, MTTD)
 ---
 
 ## 📁 Repository Structure
-
-```
 .
 ├── README.md
-├── docs/
-│   ├── Sudha_project.pdf                          # Full thesis report
-│   └── FinalPresentation_Defense_*.pptx           # Defense presentation
-├── elastalert-rules/                              # Available on request — see below
-├── sigma-rules/                                   # Available on request — see below
-├── src/
-│   ├── metrics1.py                                # Telemetry pre-processing & feature engineering
-│   ├── lotl_metrics_refined.py                    # Sigma + LSTM + Isolation Forest evaluation pipeline
-│   └── test_elastalert_rules.py                   # Interactive ElastAlert rule tester (NZT/UTC aware)
-├── results/
-│   ├── roc_curves_*.png
-│   ├── model_comparison_*.png
-│   ├── confusion_matrix_*.png
-│   ├── attack_coverage_*.png
-│   └── mttd_*.png
-└── lab-setup/
-    └── architecture-diagram.png
-```
+├── Sudha_project.pdf                    # Full thesis report (IT9115)
+├── Lab_architecture.png                 # 3-VM HELK lab architecture diagram
+├── LOTL_taxonomy.png                    # LOLBins / LOLScripts / LOLLibs taxonomy
+├── Attackbasedontactics.png             # Techniques grouped by ATT&CK tactic
+├── Mitreattack_coverage_compare.png     # Per-technique severity/tactic card grid
+├── Confusion_matrix.png                 # Sigma detection confusion matrix
+├── Model comparison.png                 # Sigma vs LSTM vs Isolation Forest — TPR/Precision/F1
+├── ROCcurve.png                         # ROC curves for all three detectors
+└── lotl_metrics_terminal.png            # Terminal output of the evaluation pipeline run
+
 
 > 📩 **Sigma rules and ElastAlert rule files are not committed to this public repository.** Detection rule logic is shared on request to avoid publishing tuned detection thresholds and lab-specific evasion-relevant detail in a public index. Please reach out via the contact details on my GitHub profile.
 
