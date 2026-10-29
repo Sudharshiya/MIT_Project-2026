@@ -111,20 +111,20 @@ The [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) repository
 
 ### Techniques Covered (per-technique results)
 
-| Technique ID | Name | Tactic | TPR | FPR | F1 | TP | FN |
-|--------------|------|--------|-----|-----|----|----|----|
-| T1059.001 | PowerShell | Execution | 100% | 0% | 1.00 | 147 | 0 |
-| T1047 | Windows Management Instrumentation | Execution | 100% | 0% | 1.00 | 2 | 0 |
-| T1059.005 | Visual Basic Script | Execution | 100% | 0% | 1.00 | 1 | 0 |
-| T1218.011 | Rundll32 | Defense Evasion | 100% | 0% | 1.00 | 103 | 0 |
-| T1218.010 | Regsvr32 | Defense Evasion | 100% | 0% | 1.00 | 2 | 0 |
-| T1218.005 | Mshta | Defense Evasion | 100% | 0% | 1.00 | 1 | 0 |
-| T1055.001 | DLL Injection | Defense Evasion | 100% | 0% | 1.00 | 1,378 | 0 |
-| T1547.001 | Registry Run Keys | Persistence | 100% | 0% | 1.00 | 6,199 | 0 |
-| T1053.005 | Scheduled Task | Persistence | 100% | 0% | 1.00 | 23 | 0 |
-| T1003.001 | LSASS Memory | Credential Access | 100% | 0% | 1.00 | 7,341 | 0 |
-| T1105 | Ingress Tool Transfer | Command and Control | 100% | 0% | 1.00 | 3 | 0 |
-| T1046 | Network Service Scanning | Discovery | 100% | 0% | 1.00 | 1 | 0 |
+| Technique ID | Name | Tactic 
+|--------------|------|--------
+| T1059.001 | PowerShell | Execution 
+| T1047 | Windows Management Instrumentation 
+| T1059.005 | Visual Basic Script | Execution 
+| T1218.011 | Rundll32 | Defense Evasion 
+| T1218.010 | Regsvr32 | Defense Evasion 
+| T1218.005 | Mshta | Defense Evasion 
+| T1055.001 | DLL Injection | Defense Evasion 
+| T1547.001 | Registry Run Keys | Persistence 
+| T1053.005 | Scheduled Task | Persistence 
+| T1003.001 | LSASS Memory | Credential Access 
+| T1105 | Ingress Tool Transfer | Command and Control 
+| T1046 | Network Service Scanning | Discovery 
 
 Full evaluation output is in `lotl_metrics_terminal.png`.
 
